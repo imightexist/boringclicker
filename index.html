@@ -55,6 +55,9 @@
           githubtitle = prompt("Enter title of clicker game");
           document.getElementById("githubeasteregg").innerHTML = githubtitle;
         }
+      };function changeclicks(){
+        e = prompt("Number of clicks");
+        document.getElementById("click").innerHTML = e;
       };function whythisexists(){
         const why2 = document.getElementById("why2");
         document.getElementById("why2").innerHTML = "to make people even more bored than they were before with shitty code";
@@ -148,7 +151,7 @@
     <a id="achievement12"></a><br id="achievement12css"  style="display: none; ">
     <a id="achievement13"></a><br id="achievement13css"  style="display: none; "><br>
     <big><b id="cheatmode"></b></big><br>
-    <a id="cheatmode2" href="javascript:cheatmode()"></a><br>
+    <a id="cheatmode2" href="javascript:changeclicks()"></a><br>
     <a id="cheatmode3" href="javascript:allachievements()"></a><br><br>
     <a id="why" href="javascript:whythisexists()">Why does BoringClicker exist?</a><br>
     <p id="why2"></p>
