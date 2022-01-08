@@ -4,6 +4,7 @@
     <title>BoringClicker</title>
   </head>
   <body>
+    <script>githubpass2 = github;</script>
     <style>.click {font-size: 100px}</style>
     <big><b onclick="github()" id="githubeasteregg">BoringClicker from github</b></big>
     <br>
@@ -49,7 +50,7 @@
         add1();
       };function github(){
         githubpass = prompt("Enter secret pass");
-        if (githubpass == "github") {
+        if (githubpass == githubpass2) {
           githubtitle = prompt("Enter title of clicker game");
           document.getElementById("githubeasteregg").innerHTML = githubtitle;
         }
