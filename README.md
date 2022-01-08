@@ -2,7 +2,7 @@
 
 clicker game but its very shitty
 
-see it in action: https://peppered-diligent-lathe.glitch.me/
+check it out: https://peppered-diligent-lathe.glitch.me/
 <br>this has the github easter egg: https://peppered-diligent-lathe.glitch.me/github.html
 
 # easter eggs
