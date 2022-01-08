@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BoringClicker</title>
+  </head>
+  <body>
+    <style>.click {font-size: 100px}</style>
+    <big><b>BoringClicker</b></big>
+    <br>
+    <big><b onclick="cheatmode()">Just click!</b></big>
+    <br>
+    <script>let e = 0; function cheatmode(){
+        var showachievement = document.getElementById("achievement13css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement13").innerHTML = "- Cheat mode activated";
+           document.getElementById("cheatmode").innerHTML = "BoringClicker Official Cheat Panel";
+        document.getElementById("cheatmode2").innerHTML = "Change number of clicks";
+        document.getElementById("cheatmode3").innerHTML = "Get all achievements";
+      }; function allachievements(){
+        let c;
+        c = e;
+        e = 9;
+        add1();
+        e = 19;
+        add1();
+        e = 29;
+        add1();
+        e = 39;
+        add1();
+        e = 49;
+        add1();
+        e = 59;
+        add1();
+        e = 69;
+        add1();
+        e = 79;
+        add1();
+        e = 89;
+        add1();
+        e = 99;
+        add1();
+        e = 499;
+        add1();
+        e = 999999;
+        add1();
+        cheatmode();
+        cheatmode();
+        e = c - 1;
+        add1();
+      };function whythisexists(){
+        const why2 = document.getElementById("why2");
+        document.getElementById("why2").innerHTML = "to make people even more bored than they were before with shitty code";
+      };function add1(){
+        /* if (e == "cheatpanel") {
+          var showachievement = document.getElementById("achievement13");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement13").innerHTML = "- Cheat mode activated";
+          e = prompt("Number of clicks:");
+           document.getElementById("cheatmode").innerHTML = "BoringClicker Official Cheat Panel";
+          document.getElementById("cheatmode2").innerHTML = "Change number of clicks";
+        } */
+        e++;
+        document.getElementById("click").innerHTML = e;
+        if (e == 10) {
+          var showachievement = document.getElementById("achievement1css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement1").innerHTML = "- Beginner (10 clicks)";
+        }
+        if (e == 20) {
+          var showachievement = document.getElementById("achievement2css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement2").innerHTML = "- 20 clicks";
+        }
+        if (e == 30) {
+          var showachievement = document.getElementById("achievement3css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement3").innerHTML = "- 30 clicks";
+        }
+        if (e == 40) {
+          var showachievement = document.getElementById("achievement4css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement4").innerHTML = "- 40 clicks";
+        }
+        if (e == 50) {
+          var showachievement = document.getElementById("achievement5css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement5").innerHTML = "- 50 clicks";
+        }
+        if (e == 60) {
+          var showachievement = document.getElementById("achievement6css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement6").innerHTML = "- 60 clicks";
+        }
+        if (e == 70) {
+          var showachievement = document.getElementById("achievement7css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement7").innerHTML = "- 70 clicks";
+        }
+        if (e == 80) {
+          var showachievement = document.getElementById("achievement8css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement8").innerHTML = "- 80 clicks";
+        }
+        if (e == 90) {
+          var showachievement = document.getElementById("achievement9css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement9").innerHTML = "- 90 clicks";
+        }
+        if (e == 100) {
+          var showachievement = document.getElementById("achievement10css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement10").innerHTML = "- 100 clicks";
+        }
+        if (e == 500) {
+          var showachievement = document.getElementById("achievement11css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement11").innerHTML = "- Why are you still here (500 clicks)";}
+        if (e == 1000000) {
+          var showachievement = document.getElementById("achievement12css");
+          showachievement.style.display = showachievement.style.display === 'none' ? '' : 'none';
+          document.getElementById("achievement12").innerHTML = "- Serious dedication (1,000,000 clicks)";
+        }
+      }</script>
+    <button onclick="add1()" id="click" class="click">
+      0
+    </button>
+    <br>
+    <big><b>Achievements:</b></big><br>
+    <a id="achievement1"></a><br id="achievement1css"  style="display: none; ">
+    <a id="achievement2"></a><br id="achievement2css"  style="display: none; ">
+    <a id="achievement3"></a><br id="achievement3css"  style="display: none; ">
+    <a id="achievement4"></a><br id="achievement4css"  style="display: none; ">
+    <a id="achievement5"></a><br id="achievement5css"  style="display: none; ">
+    <a id="achievement6"></a><br id="achievement6css"  style="display: none; ">
+    <a id="achievement7"></a><br id="achievement7css"  style="display: none; ">
+    <a id="achievement8"></a><br id="achievement8css"  style="display: none; ">
+    <a id="achievement9"></a><br id="achievement9css"  style="display: none; ">
+    <a id="achievement10"></a><br id="achievement10css"  style="display: none; ">
+    <a id="achievement11"></a><br id="achievement11css"  style="display: none; ">
+    <a id="achievement12"></a><br id="achievement12css"  style="display: none; ">
+    <a id="achievement13"></a><br id="achievement13css"  style="display: none; "><br>
+    <big><b id="cheatmode"></b></big><br>
+    <a id="cheatmode2" href="javascript:cheatmode()"></a><br>
+    <a id="cheatmode3" href="javascript:allachievements()"></a><br><br>
+    <a id="why" href="javascript:whythisexists()">Why does BoringClicker exist?</a><br>
+    <p id="why2"></p>
+  </body>
+</html>
